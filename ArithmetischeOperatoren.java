@@ -23,7 +23,7 @@ public class ArithmetischeOperatoren {
     
     // Überprüfen, ob die Division durch null vermieden wird
     if (zahl2 !=0) {
-        double division = (double) zahl1 / zahl2; // Division als Gleitkommazahl
+        float division = (float) zahl1 / zahl2; // Division als Gleitkommazahl
 
         System.out.println("Division: " + division);
     } else {
